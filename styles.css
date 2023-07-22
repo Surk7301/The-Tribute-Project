@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #E5E5FD;
+    min-height: 100%;
+    width: 100vw;
+    border:10px solid #1D1E4C;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.topSection{
+    padding: 20px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.topSection h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1D1E4C;
+    text-transform: uppercase;
+}
+.topSection h4{
+    font-size: 30px;
+    text-align: end;
+}
+.imageContainer{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.imageContainer, img{
+    width: 300px;
+    height: 320px;
+    
+
+}
+
+.aboutSection{
+    margin-top: 50px;
+
+}
+.aboutSection h2{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.aboutSection p{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+
+}
+
+.biographySection h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.biographySection ul{
+    margin-left: 60px;
+}
+.biographySection a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footerSection{
+    width: 1500px;
+    margin-top: 15px;
+}
+.footerSection p{
+    font-size: 40px;
+    text-align: end;
+}
